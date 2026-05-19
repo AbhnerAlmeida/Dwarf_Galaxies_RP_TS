@@ -1,1 +1,26 @@
+
+
+# Simulações e arquivos pesados
 SIMULATIONS/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ambientes locais
+.venv/
+venv/
+env/
+
+# Dados pesados comuns
+*.hdf5
+*.h5
+*.npy
+*.npz
+*.fits
+*.dat
+
+# Sistema
+.DS_Store
+Thumbs.db
