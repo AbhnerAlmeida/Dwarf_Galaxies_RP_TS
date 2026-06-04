@@ -1,0 +1,19 @@
+{
+  "n_snapshots": 41,
+  "time_start_gyr": 0.0,
+  "time_end_gyr": 0.7822337768000001,
+  "max_center_drift_kpc": 3.227502374910489,
+  "max_bulk_velocity_drift_kms": 8.89597715476048,
+  "max_frac_change_Mtotal": 1.9457903074845925e-16,
+  "max_frac_change_Mstars": 1.1983557041954088e-16,
+  "max_frac_change_Mgas": 3.850751844612719e-16,
+  "max_frac_change_Mdm": 0.0,
+  "max_frac_change_rhalf_stars": 0.07119775319379582,
+  "max_frac_change_sigma1d_stars": 0.11270664361600075,
+  "max_frac_change_Etotal_approx": 0.008210095534161698,
+  "median_Q_virial_eff": 1.066861653116155,
+  "median_Q_virial_collisionless": 1.012435999948027,
+  "warnings": [
+    "centre drifts by >0.2 initial stellar rhalf"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "star_ids": {
+    "n": 7584,
+    "min": 317921,
+    "max": 325504
+  },
+  "inner_star_ids": {
+    "n": 3792,
+    "min": 317926,
+    "max": 325504
+  },
+  "gas_ids": {
+    "n": 44502,
+    "min": 1035,
+    "max": 247239
+  },
+  "dm_ids": {
+    "n": 70681,
+    "min": 247240,
+    "max": 317920
+  },
+  "initial_center_kpc": [
+    149.9999999879278,
+    79.99999998792819,
+    8.172333656659417e-10
+  ],
+  "initial_stars_com_kpc": [
+    149.9999999879278,
+    79.99999998792819,
+    8.172333656659417e-10
+  ],
+  "initial_stellar_core_kpc": [
+    149.78392273929705,
+    79.81366993241522,
+    0.05473307363820322
+  ],
+  "initial_rhalf_star_com_kpc": 1.6926933966099333,
+  "initial_rhalf_star_core_kpc": 1.652173439958116,
+  "initial_inner_radius_kpc": 1.6926933966099333,
+  "initial_gas_selection_radius_kpc": 30.0,
+  "initial_dm_selection_radius_kpc": 80.0,
+  "initial_Nstar": 7584,
+  "initial_Ninner_star": 3792,
+  "initial_Ngas": 44502,
+  "initial_Ndm": 70681
+}

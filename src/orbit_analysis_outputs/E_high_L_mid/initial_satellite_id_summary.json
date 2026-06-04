@@ -1,0 +1,25 @@
+{
+  "star_ids": {
+    "n": 7584,
+    "min": 317921,
+    "max": 325504
+  },
+  "gas_ids": {
+    "n": 44554,
+    "min": 1035,
+    "max": 247239
+  },
+  "dm_ids": {
+    "n": 70681,
+    "min": 247240,
+    "max": 317920
+  },
+  "initial_center_kpc": [
+    149.78392273929705,
+    79.81366993241522,
+    0.05473307363820322
+  ],
+  "initial_rhalf_star_kpc": 1.652173439958116,
+  "initial_gas_selection_radius_kpc": 30.0,
+  "initial_dm_selection_radius_kpc": 80.0
+}

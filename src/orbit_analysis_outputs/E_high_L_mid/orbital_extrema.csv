@@ -1,0 +1,2 @@
+event_id,event_type,snapshot_index,snapshot_number,time_gyr,R_host_kpc,time_refined_gyr,R_refined_kpc,V_3d_kms,V_rad_kms,V_tan_kms,event_number
+0,pericentre,5,5,0.9739727201367188,41.19223197905323,0.9011417612012163,37.65292728882355,277.20285547251575,-26.201176851806714,275.9618115132904,1

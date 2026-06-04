@@ -1,8 +1,8 @@
 {
   "pericentre_snapshot_number": 5,
   "pericentre_time_gyr": 0.9739727201367188,
-  "pericentre_R_kpc": 32.79403564037368,
-  "pericentre_V_3d_kms": 322.7298550598668,
-  "pericentre_r_tidal_kpc": 9.539685101802565,
-  "pericentre_P_ram_dyne_cm2": 2.3158355611843186e-11
+  "pericentre_R_kpc": 32.79542951927801,
+  "pericentre_V_3d_kms": 322.254572049253,
+  "pericentre_r_tidal_kpc": 9.946379915663218,
+  "pericentre_P_ram_dyne_cm2": 2.3009329101275655e-11
 }

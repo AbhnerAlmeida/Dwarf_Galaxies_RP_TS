@@ -1,0 +1,37 @@
+{
+  "units": {
+    "length_unit_to_kpc": 1.0,
+    "velocity_unit_to_kms": 1.0,
+    "mass_unit_to_msun": 10000000000.0,
+    "time_unit_to_gyr": 0.977792221
+  },
+  "config": {
+    "gas_ptype": 0,
+    "dm_ptype": 1,
+    "star_ptype": 4,
+    "center_mode": "inner_stars_dm",
+    "inner_center_radius_kpc": 2.0,
+    "shrink_factor": 0.75,
+    "shrink_min_particles": 100,
+    "shrink_min_radius_kpc": 0.05,
+    "apertures_kpc": [
+      0.5,
+      1,
+      2,
+      3,
+      5
+    ],
+    "softening_kpc": 0.02,
+    "gamma_gas": 1.6666666666666667,
+    "sfr_threshold_msun_per_yr": 0.0,
+    "map_width_kpc": 30.0,
+    "map_npix": 450,
+    "map_axis": "z",
+    "map_every": 1,
+    "make_gif": false,
+    "gif_fps": 5,
+    "profile_bins": 40,
+    "profile_rmin_kpc": 0.03,
+    "profile_rmax_kpc": null
+  }
+}

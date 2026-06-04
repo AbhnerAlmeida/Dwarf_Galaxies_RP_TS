@@ -1,7 +1,7 @@
 {
   "map_backend": "matplotlib",
   "map_axis": "z",
-  "map_width_kpc": 384.0175798941349,
+  "map_width_kpc": 384.0103711696132,
   "map_vmin": 104889.05900274403,
   "map_vmax": 944001.5310246963,
   "map_cmap": "viridis",

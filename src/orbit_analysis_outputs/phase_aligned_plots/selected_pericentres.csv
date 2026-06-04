@@ -1,0 +1,4 @@
+label,which_pericentre,t_peri,R_peri_kpc,nearest_snapshot_index,time_unit
+E_mid_L_radial,first,0.9739666105089406,50.03171687705662,5,Gyr
+E_mid_L_mid,first,0.9739722929346847,32.79403564077617,5,Gyr
+E_mid_L_high,first,1.365465448995269,73.67740748856923,7,Gyr

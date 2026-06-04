@@ -1,0 +1,104 @@
+{
+  "root": "./../SIMULATIONS/ORBIT/HigherRes",
+  "labels": null,
+  "output_dir": "orbit_analysis_outputs",
+  "snapshot_glob": "snapshot_*.hdf5",
+  "gas_ptype": 0,
+  "dm_ptype": 1,
+  "star_ptype": 4,
+  "length_unit_to_kpc": 1.0,
+  "velocity_unit_to_kms": 1.0,
+  "mass_unit_to_msun": 10000000000.0,
+  "time_unit_to_gyr": 0.977792221,
+  "host": {
+    "host_center_kpc": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "host_velocity_kms": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "m200_msun": 1000000000000.0,
+    "r200_kpc": 210.0,
+    "concentration": 10.0,
+    "tidal_factor": 3.0,
+    "truncate_mass_at_r200": false
+  },
+  "initial_satellite_gas_radius_kpc": null,
+  "default_initial_gas_radius_kpc": 30.0,
+  "gas_radius_factor_rhalf": 8.0,
+  "dm_selection_mode": "all",
+  "initial_satellite_dm_radius_kpc": null,
+  "default_initial_dm_radius_kpc": 80.0,
+  "dm_radius_factor_rhalf": 20.0,
+  "shrink_initial_radius_kpc": null,
+  "shrink_factor": 0.75,
+  "shrink_min_particles": 100,
+  "shrink_min_radius_kpc": 0.2,
+  "center_search_radius_kpc": 40.0,
+  "velocity_center_radius_factor_rhalf": 1.0,
+  "velocity_center_min_radius_kpc": 1.0,
+  "tidal_max_iterations": 40,
+  "tidal_tolerance": 0.001,
+  "tidal_initial_fraction_of_R": 0.15,
+  "tidal_max_fraction_of_R": 0.5,
+  "tidal_min_radius_kpc": 0.05,
+  "make_maps": true,
+  "make_gifs": true,
+  "gif_fps": 5,
+  "gif_stride": 1,
+  "plot_log10_masses_and_radii": true,
+  "annotate_orbital_extrema": true,
+  "event_window_snapshots": 1,
+  "pericentre_reference": "first",
+  "fixed_aperture_radii_kpc": [
+    1.0,
+    3.0
+  ],
+  "compute_star_formation": true,
+  "sfr_unit_to_msun_per_yr": 1.0,
+  "star_forming_sfr_threshold_msun_per_yr": 0.0,
+  "young_star_age_myr": 100.0,
+  "stellar_birth_time_mode": "code_time",
+  "include_all_stars_as_satellite": true,
+  "map_backend": "matplotlib",
+  "map_auto_width_include_orbit": true,
+  "map_margin_kpc": 20.0,
+  "map_vmin": null,
+  "map_vmax": null,
+  "map_vlim_percentiles": [
+    1.0,
+    99.5
+  ],
+  "map_cmap": "viridis",
+  "map_white_background": true,
+  "compute_ram_pressure": true,
+  "ram_pressure_density_radius_kpc": 10.0,
+  "ram_pressure_max_density_radius_kpc": 30.0,
+  "ram_pressure_min_cgm_particles": 16,
+  "ram_pressure_velocity_mode": "local_cgm",
+  "ram_pressure_use_cgm_only": true,
+  "map_axis": "z",
+  "map_width_kpc": 250.0,
+  "map_bbox_kpc": 400.0,
+  "map_field_candidates": [
+    [
+      "gas",
+      "density"
+    ],
+    [
+      "PartType0",
+      "Density"
+    ],
+    [
+      "PartType0",
+      "density"
+    ]
+  ],
+  "fallback_map_npix": 600,
+  "save_snapshot_json": false,
+  "verbose": true
+}

@@ -1,0 +1,86 @@
+{
+  "config": {
+    "root": "./../SIMULATIONS/ORBIT/HigherRes",
+    "labels": [
+      "E_mid_L_radial",
+      "E_mid_L_mid",
+      "E_mid_L_high"
+    ],
+    "output_dir": "orbit_center_tracking_outputs_inner_ids",
+    "snapshot_glob": "snapshot_*.hdf5",
+    "gas_ptype": 0,
+    "dm_ptype": 1,
+    "star_ptype": 4,
+    "length_unit_to_kpc": 1.0,
+    "velocity_unit_to_kms": 1.0,
+    "mass_unit_to_msun": 10000000000.0,
+    "time_unit_to_gyr": 0.977792221,
+    "host": {
+      "host_center_kpc": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "host_velocity_kms": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "m200_msun": 1000000000000.0,
+      "r200_kpc": 210.0,
+      "concentration": 10.0,
+      "tidal_factor": 3.0,
+      "truncate_mass_at_r200": false
+    },
+    "center_mode": "inner_ids_shrinking",
+    "velocity_mode": "inner_ids",
+    "inner_radius_factor_rhalf": 1.0,
+    "inner_min_radius_kpc": 0.5,
+    "inner_max_radius_kpc": 5.0,
+    "inner_min_particles": 50,
+    "use_stars_com_for_initial_core": true,
+    "shrink_initial_radius_kpc": null,
+    "shrink_factor": 0.75,
+    "shrink_min_particles": 100,
+    "shrink_min_radius_kpc": 0.2,
+    "center_search_radius_kpc": 40.0,
+    "initial_satellite_gas_radius_kpc": null,
+    "default_initial_gas_radius_kpc": 30.0,
+    "gas_radius_factor_rhalf": 8.0,
+    "dm_selection_mode": "all",
+    "initial_satellite_dm_radius_kpc": null,
+    "default_initial_dm_radius_kpc": 80.0,
+    "dm_radius_factor_rhalf": 20.0,
+    "tidal_max_iterations": 40,
+    "tidal_tolerance": 0.001,
+    "tidal_initial_fraction_of_R": 0.15,
+    "tidal_max_fraction_of_R": 0.5,
+    "tidal_min_radius_kpc": 0.05,
+    "member_mode": "tidal_kinematic",
+    "member_tidal_factor": 1.0,
+    "stripped_tidal_factor": 1.5,
+    "v_escape_factor": 1.25,
+    "stripped_consecutive_snapshots": 2,
+    "enclosed_mass_softening_kpc": 0.05,
+    "make_plots": true,
+    "verbose": true
+  },
+  "N_star_ids": 7584,
+  "N_inner_star_ids": 3792,
+  "N_gas_ids": 44502,
+  "N_dm_ids": 70681,
+  "initial_stars_com_kpc": [
+    149.9999999879278,
+    79.99999998792819,
+    8.172333656659417e-10
+  ],
+  "initial_stars_com_velocity_kms": [
+    -122.44199997239271,
+    4.120999988216372,
+    6.343469140142131e-09
+  ],
+  "initial_rhalf_star_kpc": 1.6926933966099333,
+  "initial_inner_radius_kpc": 1.6926933966099333,
+  "initial_gas_selection_radius_kpc": 30.0,
+  "initial_dm_selection_radius_kpc": 80.0
+}

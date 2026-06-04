@@ -2,7 +2,8 @@
   "root": "./../SIMULATIONS/ORBIT/HigherRes",
   "labels": [
     "E_mid_L_radial",
-    "E_mid_L_mid"
+    "E_mid_L_mid",
+    "E_mid_L_high"
   ],
   "output_dir": "orbit_analysis_outputs",
   "snapshot_glob": "snapshot_*.hdf5",
@@ -56,6 +57,17 @@
   "plot_log10_masses_and_radii": true,
   "annotate_orbital_extrema": true,
   "event_window_snapshots": 1,
+  "pericentre_reference": "first",
+  "fixed_aperture_radii_kpc": [
+    1.0,
+    3.0
+  ],
+  "compute_star_formation": true,
+  "sfr_unit_to_msun_per_yr": 1.0,
+  "star_forming_sfr_threshold_msun_per_yr": 0.0,
+  "young_star_age_myr": 100.0,
+  "stellar_birth_time_mode": "code_time",
+  "include_all_stars_as_satellite": true,
   "map_backend": "matplotlib",
   "map_auto_width_include_orbit": true,
   "map_margin_kpc": 20.0,
